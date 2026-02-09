@@ -15,6 +15,11 @@ cp env.simple .env
 
 ## Database
 ```sh
-docker compose -f ad.yaml up #monitoring
-docker compose -f ad.yaml up -d #backgroundRun
+docker compose -f db.yaml up #monitoring
+docker compose -f db.yaml up -d #backgroundRun
+```
+## pgadmin
+```sh
+docker compose -f admin.yaml up #monitoring
+docker compose -f admin.yaml up -d #backgroundRun
 ```
