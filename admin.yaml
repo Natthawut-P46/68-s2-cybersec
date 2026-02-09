@@ -1,5 +1,5 @@
-s2admin:
-  68-s2-admin:
+services:
+  s2admin:
     image: dpage/pgadmin4:latest
     container_name: 68-s2-pgadmin4
     ports:
